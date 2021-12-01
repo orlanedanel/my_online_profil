@@ -1,0 +1,102 @@
+body{
+    background-color: #FDF6F0;
+    text-align: center;
+    line-height: 1.8;
+}
+
+
+h1 {
+    padding: 40px;
+    font-size: 50px;
+    color:  #FF5C58;
+}
+
+h2 {
+    front-size:  25px;
+    color: #316B83;
+    margin:  3px;
+    padding:  3px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+img{
+    width: 400px;
+    border-radius: 500px;
+    border: 10px solid #316B83;
+
+}
+
+.boite0 {
+    margin: 20px;
+    padding: 20px;
+}
+
+.container {
+  border: solid #FF5C58; 2px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.boite1 {
+  border: solid #316B83 2px;
+  margin: 1px;
+  padding: 10px;
+}
+
+.boite2 {
+  border: solid #316B83 2px;
+  margin: 1px;
+  padding: 10px;
+}
+
+.container2 {
+  margin: 20px;
+  padding: 20px;
+  line-height: 2em;
+}
+
+.boite3 {
+  border: 0px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.coordonées {
+    font-size: 15px;
+    display: grid;
+    line-height: 4em;
+}
+
+.réseaux{
+    font-size: 15px;
+    display: grid;
+}
+
+    @media (max-device-width: 540px) {
+        .container{
+            display: block;
+        }
+
+        .boite2{
+            margin-top: 20px;
+        }
+
+        .coordonées{
+            display: grid;
+            padding: 20px;
+            line-height: 2em;
+
+        }
+        .réseaux{
+            font-size: 40px;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+}
